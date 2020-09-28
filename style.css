@@ -17,6 +17,7 @@
  /* I was trying to make the main content more responsive
   but I was having a hard time*/
   main > * {
+    display: flex;
     flex: auto;
     flex-grow: 1;
     flex-shrink: 1;
@@ -49,8 +50,10 @@
   }
 
   img {
+    display: flex;
     margin: auto;
-    height: 60vh; 
+    height: 60vh;
+    justify-content: center;
   }
 
   button {
