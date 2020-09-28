@@ -111,7 +111,7 @@
   }
 
 @media screen and (min-width: 450px) {
-  body {
+  main {
     background-color: lightpink;
   }
   h1 {
@@ -123,13 +123,13 @@
 }
 
 @media (max-width: 600px) {
-    body {
+    main {
       font-size: 20px;
     }
   }
   
 @media (max-width: 800px) {
-    body {
+    main {
       font-size: 24px;
     }
   }
